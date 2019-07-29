@@ -1,7 +1,7 @@
 FROM bharathappali/openj9-jdk11-ubuntu
 
 RUN apt-get update \
-    && apt-get install make \
+    && apt-get -y install make \
     ant \
     libtext-csv-perl \
     libxml-parser-perl \
